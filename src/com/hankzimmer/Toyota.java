@@ -9,7 +9,7 @@ public class Toyota extends Car {
     }
 
     public void holdValue() {
-        System.out.println(this.getName() + " held value.");
+        System.out.println(getName() + " held value.");
     }
 
     public String getModel() {

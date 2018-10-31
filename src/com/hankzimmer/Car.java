@@ -17,14 +17,14 @@ public class Car extends Vehicle {
 
     public void changeGear(int gear) {
         this.currentGear = gear;
-        System.out.println(this.getName() + " changed to gear " + currentGear);
+        System.out.println(getName() + " changed to gear " + currentGear);
     }
 
     public int getWheels() {
         return wheels;
     }
 
-    public boolean isSunRoof() {
+    public boolean hasSunRoof() {
         return sunRoof;
     }
 
